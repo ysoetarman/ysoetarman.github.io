@@ -1,11 +1,11 @@
 h1 {
 	text-align:center;
 	color: purple;
-	font-family: "Inconsolata", monospace; 
+	font-family: Inconsolata; 
 
 }
 p {
 	color: blue;
-	font-size: 25px;
+	font-size: 300%;
 
 }
