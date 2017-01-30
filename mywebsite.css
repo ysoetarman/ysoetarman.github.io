@@ -1,9 +1,11 @@
 h1 {
 	text-align:center;
 	color: purple;
+	font-family: "Inconsolata", monospace; 
 
 }
 p {
 	color: blue;
+	font-size: 25px;
 
 }
