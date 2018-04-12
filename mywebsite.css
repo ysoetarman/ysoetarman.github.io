@@ -1,14 +1,59 @@
+.pagewrap {
+	width: 240px;
+	margin: auto;
+  font-size: 300%;
+}
 h1 {
-	text-align:center;
-	color: purple;
-	font-family: Inconsolata; 
+	/*text-align:center;*/
+	color: #919191;
+	font-family: Gilroy; 
+  vertical-align: bottom;
+}
+h1.t{
+  margin-bottom: 0px
+}
 
+.header {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;  
+}
+.t:hover{
+  font-style: bold;
+}
+img {
+  
 }
 body {
-	background-color: lightblue;
-}
-p {
-	color: blue;
-	font-size: 150%;
+  font-family: Inconsolata;
+  font-family: Inconsolata;
 
+}
+
+.link {
+    display: inline-block;
+}
+
+
+a {
+    text-decoration: none;
+    color: #B3B3B3;
+    font-size: 16px;
+}
+a:hover {
+    color:  #919191;
+    opacity: 0.9;
+    font-style: bold;
+}
+
+p {
+	color: black;
+	font-size: 150%;
 }
