@@ -1,16 +1,11 @@
-.pagewrap {
-	width: 240px;
-	margin: auto;
-  font-size: 300%;
-}
 h1 {
 	/*text-align:center;*/
 	color: #919191;
 	font-family: Gilroy; 
   vertical-align: bottom;
 }
-h1.t{
-  margin-bottom: 0px
+.t{
+  font-size: 20px;
 }
 
 .header {
@@ -22,15 +17,11 @@ h1.t{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  height: 50%;  
 }
 .t:hover{
   font-style: bold;
 }
-img {
-  
-}
+
 body {
   font-family: Inconsolata;
   font-family: Inconsolata;
@@ -38,16 +29,14 @@ body {
 }
 
 .link {
-    display: inline-block;
+    font-size: 20px;
 }
 
+.resume {
 
-a {
-    text-decoration: none;
     color: #B3B3B3;
-    font-size: 16px;
 }
-a:hover {
+.resume:hover {
     color:  #919191;
     opacity: 0.9;
     font-style: bold;
