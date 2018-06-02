@@ -1,48 +1,35 @@
-h1 {
-	/*text-align:center;*/
-	color: #919191;
-	font-family: Gilroy; 
-  vertical-align: bottom;
-}
 .t{
-  font-size: 20px;
+  font-size: 18px;
 }
-
-.header {
-  position: relative;
-  top: 0;
-  left: 0;
+.pronunciation {
+  font-size: 125%;
 }
 .logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-.t:hover{
-  font-style: bold;
-}
-
-body {
-  font-family: Inconsolata;
-  font-family: Inconsolata;
-
+  width: 25%;
+  height: 25%;
+  padding-top: 1%;
 }
 
+.definition{
+  list-style-type:none;
+  padding-left: 37.5%;
+}
+
+.name{
+  font-size: 400%;
+  text-shadow: 2px 2px 2px gray;
+}
 .link {
-    font-size: 20px;
+  color: black;
 }
-
-.resume {
-
-    color: #B3B3B3;
-}
-.resume:hover {
-    color:  #919191;
-    opacity: 0.9;
-    font-style: bold;
-}
-
-p {
-	color: black;
-	font-size: 150%;
+.link:hover {
+  color: #3a3940;
+  opacity: 0.9;
+  font-weight: bolder;
+  font-style: italic;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px #B3B3B3;
 }
